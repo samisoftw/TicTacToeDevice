@@ -7,5 +7,21 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="background2">#00d4ff</color>
+
     <color name="background1"> #88ff4d</color>
+
+    Color
+    <color name="Start1color">#80ff80</color>
+    <color name="Medium1color"> #33ff33</color>
+    <color name="End1color"> #99ff33</color>
+
+    <color name="Start2color">#00d4ff</color>
+    <color name="Medium2color">#0476c1</color>
+    <color name="End2color">#08258c</color>
+
+    <color name="player1Click"> #ff9900</color>
+    <color name="player2Click">#ff3300</color>
+
 </resources>

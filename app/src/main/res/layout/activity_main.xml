@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/background1"
+    android:background="@drawable/gradient2"
     tools:context=".MainActivity">
 
     <TableRow
@@ -15,24 +15,38 @@
         android:layout_marginTop="3pt"
         android:gravity="center">
 
+
+        <TextView
+            android:id="@+id/textViewWinner"
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3pt"
+        android:gravity="center">
         <Button
             android:id="@+id/bt1"
-            android:layout_width="60pt"
-            android:layout_height="60pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
             android:layout_marginLeft="3pt" />
 
         <Button
             android:id="@+id/bt2"
-            android:layout_width="60pt"
-            android:layout_height="60pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
             android:layout_marginLeft="3pt" />
 
         <Button
             android:id="@+id/bt3"
-            android:layout_width="60pt"
-            android:layout_height="60pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
             android:layout_marginLeft="3pt"
-            android:layout_marginRight="3pt"/>
+            android:layout_marginRight="3pt" />
+
 
     </TableRow>
 
@@ -44,22 +58,22 @@
 
         <Button
             android:id="@+id/bt4"
-            android:layout_width="60pt"
-            android:layout_height="60pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
             android:layout_marginLeft="3pt" />
 
         <Button
             android:id="@+id/bt5"
-            android:layout_width="60pt"
-            android:layout_height="60pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
             android:layout_marginLeft="3pt" />
 
         <Button
             android:id="@+id/bt6"
-            android:layout_width="60pt"
-            android:layout_height="60pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
             android:layout_marginLeft="3pt"
-            android:layout_marginRight="3pt"/>
+            android:layout_marginRight="3pt" />
 
     </TableRow>
 
@@ -71,23 +85,38 @@
 
         <Button
             android:id="@+id/bt7"
-            android:layout_width="60pt"
-            android:layout_height="60pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
             android:layout_marginLeft="3pt" />
 
         <Button
             android:id="@+id/bt8"
-            android:layout_width="60pt"
-            android:layout_height="60pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
             android:layout_marginLeft="3pt" />
 
         <Button
             android:id="@+id/bt9"
-            android:layout_width="60pt"
-            android:layout_height="60pt"
-            android:layout_marginLeft="3pt"
-            android:layout_marginRight="3pt"/>
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_marginLeft="3pt"/>
 
     </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3pt"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:text="RESET"/>
+    </TableRow>
+
+
 
 </TableLayout>
